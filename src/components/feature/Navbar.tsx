@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import logoAllBelieversChapel from "@/assets/logo-all-believers-chapel.png";
 
 const aboutDropdown = [
   { label: "The Story So Far", path: "/about/story", icon: "ri-history-line" },
@@ -144,11 +145,19 @@ export default function Navbar() {
             className="flex items-center cursor-pointer flex-shrink-0 min-h-[44px] min-w-[44px]"
             aria-label="Go to top of page"
           >
-            <div className={`flex items-center justify-center rounded-xl px-1 py-0.5 transition-all duration-300 ${scrolled || !isHome ? "bg-transparent" : "bg-white/90 backdrop-blur-sm"}`}>
+            <div
+              className={`flex items-center justify-center rounded-full p-0.5 transition-all duration-300 ring-1 ring-black/5 ${
+                scrolled || !isHome ? "bg-transparent ring-transparent" : "bg-white/90 backdrop-blur-sm"
+              }`}
+            >
               <img
-                src="https://static.readdy.ai/image/4428baccc60709cd2682246ca105b4f4/888970baa24942f1fd24ce8dba84e082.png"
-                alt="All Believers Chapel"
-                className="h-9 sm:h-12 w-auto max-w-[140px] sm:max-w-[180px] object-contain"
+                src={logoAllBelieversChapel}
+                alt="All Believers Chapel logo"
+                width={160}
+                height={160}
+                decoding="async"
+                fetchPriority="high"
+                className="h-11 w-11 min-h-[2.75rem] min-w-[2.75rem] sm:h-12 sm:w-12 sm:min-h-[3rem] sm:min-w-[3rem] lg:h-14 lg:w-14 lg:min-h-[3.5rem] lg:min-w-[3.5rem] shrink-0 rounded-full object-contain select-none"
               />
             </div>
           </a>

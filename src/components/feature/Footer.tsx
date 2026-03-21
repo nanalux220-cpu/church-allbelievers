@@ -1,4 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
+import logoAllBelieversChapel from "@/assets/logo-all-believers-chapel.png";
 
 export default function Footer() {
   const navigate = useNavigate();
@@ -56,11 +57,17 @@ export default function Footer() {
                 className="inline-flex items-center cursor-pointer min-h-[44px]"
                 aria-label="Go to top of page"
               >
-                <img
-                  src="https://static.readdy.ai/image/4428baccc60709cd2682246ca105b4f4/888970baa24942f1fd24ce8dba84e082.png"
-                  alt="All Believers Chapel"
-                  className="h-14 sm:h-20 w-auto max-w-[180px] object-contain bg-white rounded-xl px-2 py-1"
-                />
+                <div className="flex items-center justify-center rounded-full p-0.5 bg-white/90 ring-1 ring-white/15">
+                  <img
+                    src={logoAllBelieversChapel}
+                    alt="All Believers Chapel logo"
+                    width={160}
+                    height={160}
+                    decoding="async"
+                    loading="lazy"
+                    className="h-14 w-14 min-h-[3.5rem] min-w-[3.5rem] sm:h-16 sm:w-16 sm:min-h-[4rem] sm:min-w-[4rem] lg:h-20 lg:w-20 lg:min-h-[5rem] lg:min-w-[5rem] shrink-0 rounded-full object-contain select-none"
+                  />
+                </div>
               </a>
             </div>
             <p className="text-stone-400 text-sm leading-relaxed">
