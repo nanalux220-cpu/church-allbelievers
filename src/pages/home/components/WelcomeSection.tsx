@@ -9,7 +9,7 @@ export default function WelcomeSection() {
           <div className="relative rounded-2xl overflow-hidden w-full bg-white border border-stone-100" style={{ aspectRatio: "4/5", maxHeight: "520px" }}>
             <img
               src="https://static.readdy.ai/image/4428baccc60709cd2682246ca105b4f4/ce593dd0965a025d704e6c7350f444c6.jpeg"
-              alt="Rev. George Abakah – Rev. George Abakah, All Believers Chapel"
+              alt="Rev. George Abakah – Founder & Senior Pastor, All Believers Chapel"
               className="w-full h-full object-cover object-top"
             />
             {/* Name badge at bottom */}
