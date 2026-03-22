@@ -10,7 +10,7 @@ const boardMembers = [
     img: "https://storage.readdy-site.link/project_files/00d6bb05-2c0a-47a0-8a61-fb9c4ae4c88b/38f91e03-422e-4b56-9426-aa7fc5d27548_WhatsApp-Image-2026-03-20-at-5.54.41-PM.jpeg?v=a4dbfee53e247909e9a421e1dfea8a19",
   },
   {
-    name: "Evan. Kwadwo Abeagye-Asare",
+    name: "Evan. Kwadwo Abeoagye-Asare",
     role: "Senior Evangelist",
     img: "https://static.readdy.ai/image/4428baccc60709cd2682246ca105b4f4/ce593dd0965a025d704e6c7350f444c6.jpeg",
   },
