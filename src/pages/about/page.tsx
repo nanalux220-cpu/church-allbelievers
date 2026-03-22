@@ -3,14 +3,14 @@ import Footer from "../../components/feature/Footer";
 
 const leaders = [
   {
-    name: "Rev. George Abakah",
-    role: "Founder & Senior Pastor",
-    bio: "Rev. Abakah leads All Believers Chapel with a passionate heart for discipleship and community transformation. He has dedicated decades of ministry to equipping believers in Leeds and beyond.",
+    name: "Evan. Kwadwo Aboagye-Asare",
+    role: "Senior Evangelist",
+    bio: "Evan. Kwadwo Aboagye-Asare leads All Believers Chapel with a passionate heart for discipleship and community transformation. He has dedicated decades of ministry to equipping believers in Leeds and beyond.",
     img: "https://readdy.ai/api/search-image?query=professional%20portrait%20african%20male%20senior%20pastor%20reverend%20formal%20suit%20clerical%20collar%20confident%20warm%20authoritative%20smile%20studio%20background%20high%20quality%20photography%20spiritual%20leader%20dignified&width=400&height=400&seq=leader001&orientation=squarish",
   },
   {
-    name: "Evan. Kwadwo Abeagye-Asare",
-    role: "Senior Evangelist",
+    name: "Rev. George Abakah",
+    role: "Founder & Senior Pastor",
     bio: "A visionary leader who founded All Believers Chapel in 2018 with a burning desire to spread the Gospel across the UK and beyond. His evangelistic fervour has shaped the church's DNA.",
     img: "https://readdy.ai/api/search-image?query=professional%20portrait%20senior%20african%20male%20church%20evangelist%20founder%20formal%20suit%20confident%20warm%20smile%20neutral%20studio%20background%20high%20quality%20photography%20dignified%20visionary%20leader&width=400&height=400&seq=leader002&orientation=squarish",
   },
