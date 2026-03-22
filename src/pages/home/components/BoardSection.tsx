@@ -1,22 +1,22 @@
 const boardMembers = [
   {
-    name: "Evan. Kwadwo Abeagye-Asare",
-    role: "Founder & Senior Evangelist",
+    name: "Rev. George Abakah",
+    role: "Founder & Senior Pastor",
     img: "https://storage.readdy-site.link/project_files/00d6bb05-2c0a-47a0-8a61-fb9c4ae4c88b/b308b9ee-e8f9-4e41-9e65-b74e514d4804_WhatsApp-Image-2026-03-17-at-4.54.29-PM.jpeg?v=2c568c01b6b4c6dbac907a586cf5f16d",
   },
   {
-    name: "Isaac Ofori",
-    role: "Deacon",
+    name: "Grace Boateng",
+    role: "Pastor Wife",
     img: "https://storage.readdy-site.link/project_files/00d6bb05-2c0a-47a0-8a61-fb9c4ae4c88b/38f91e03-422e-4b56-9426-aa7fc5d27548_WhatsApp-Image-2026-03-20-at-5.54.41-PM.jpeg?v=a4dbfee53e247909e9a421e1dfea8a19",
   },
   {
-    name: "Rev. George Abakah",
-    role: "Senior Pastor",
+    name: "Evan. Kwadwo Abeagye-Asare",
+    role: "Senior Evangelist",
     img: "https://static.readdy.ai/image/4428baccc60709cd2682246ca105b4f4/ce593dd0965a025d704e6c7350f444c6.jpeg",
   },
   {
     name: "Sis. Grace Mensah",
-    role: "Board Member",
+    role: "Evangelist Wife",
     img: "https://readdy.ai/api/search-image?query=professional%20portrait%20african%20female%20church%20board%20member%20formal%20attire%20confident%20warm%20smile%20neutral%20background%20high%20quality%20photography%20trustworthy%20community%20leader&width=300&height=300&seq=board004&orientation=squarish",
   },
 ];
