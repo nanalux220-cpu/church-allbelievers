@@ -17,7 +17,7 @@ export default function WelcomeSection() {
               <p className="text-white font-extrabold text-base sm:text-lg leading-tight">
                 Rev. George Abakah
               </p>
-              <p className="text-amber-300 text-xs mt-0.5 font-medium tracking-wide">Senior Pastor</p>
+              <p className="text-amber-300 text-xs mt-0.5 font-medium tracking-wide">Founder & Senior Pastor</p>
             </div>
           </div>
           {/* Est. badge */}
